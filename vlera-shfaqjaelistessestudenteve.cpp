@@ -29,7 +29,7 @@ int main() {
         {3, "Elira", 21}
     };
 
-    shfaqStudentet(lista);
+    shfaqStudentet(lista);   
 
     return 0; 
 }
