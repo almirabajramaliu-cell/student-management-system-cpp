@@ -26,7 +26,7 @@ void searchStudentByID(int searchID) {
         }
     }
     if (!found) {
-        cout << "Nuk u gjet asnjë student me ID: " << searchID << endl;
+        cout << "Nuk u gjet asnjë student me ID:  " << searchID << endl;
     }
 }
 
