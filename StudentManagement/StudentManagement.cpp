@@ -41,3 +41,18 @@ int main() {
 
     return 0;
 }
+
+// ------------------------------------------------------------
+// Ky modul implementon funksionalitetin bazë për menaxhimin
+// e studentëve në një aplikacion console në C++.
+//
+// Aktualisht përfshin:
+// - Strukturën Student
+// - Shtimin e një studenti në memorje
+// - Shfaqjen e listës së studentëve
+//
+// Funksionalitete shtesë (kërkim, ruajtje në file, etj.)
+// do të implementohen në branch-e të veçanta nga anëtarët
+// e tjerë të ekipit.
+// ------------------------------------------------------------
+
