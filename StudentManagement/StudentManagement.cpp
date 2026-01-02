@@ -4,37 +4,37 @@
 
 using namespace std;
 
-// Definimi i strukturës Student
+// Definimi i strukturï¿½s Student
 struct Student {
     string name;  // Emri i studentit
     int id;       // ID-ja e studentit
     int age;      // Mosha e studentit
 };
 
-// Krijo një vektor për të ruajtur studentët
+// Krijo njï¿½ vektor pï¿½r tï¿½ ruajtur studentï¿½t
 vector<Student> students;
 
-// Funksioni për të shtuar një student
+// Funksioni pï¿½r tï¿½ shtuar njï¿½ student
 void addStudent() {
     Student newStudent;
     cout << "Shkruaj emrin e studentit: ";
-    getline(cin, newStudent.name);  // Përdorim getline për të marrë emrin me hapësira
-    cout << "Shkruaj ID-në e studentit: ";
+    getline(cin, newStudent.name);  // Pï¿½rdorim getline pï¿½r tï¿½ marrï¿½ emrin me hapï¿½sira
+    cout << "Shkruaj ID-nï¿½ e studentit: ";
     cin >> newStudent.id;
-    cout << "Shkruaj moshën e studentit: ";
+    cout << "Shkruaj moshï¿½n e studentit: ";
     cin >> newStudent.age;
 
-    students.push_back(newStudent); // Shto studentin në listë
+    students.push_back(newStudent); // Shto studentin nï¿½ listï¿½
     cout << "Studenti u shtua me sukses!\n";
 }
 
 // Funksioni kryesor
 int main() {
-    // Thirret funksioni për të shtuar një student
+    // Thirret funksioni pï¿½r tï¿½ shtuar njï¿½ student
     addStudent();
 
-    // Shfaq të gjithë studentët
-    cout << "\nLista e Studentëve:\n";
+    // Shfaq tï¿½ gjithï¿½ studentï¿½t
+    cout << "\nLista e Studentï¿½ve:\n";
     for (const auto& student : students) {
         cout << "Emri: " << student.name << ", ID: " << student.id << ", Mosha: " << student.age << endl;
     }
@@ -43,16 +43,16 @@ int main() {
 }
 
 // ------------------------------------------------------------
-// Ky modul implementon funksionalitetin bazë për menaxhimin
-// e studentëve në një aplikacion console në C++.
+// Ky modul implementon funksionalitetin bazï¿½ pï¿½r menaxhimin
+// e studentï¿½ve nï¿½ njï¿½ aplikacion console nï¿½ C++.
 //
-// Aktualisht përfshin:
-// - Strukturën Student
-// - Shtimin e një studenti në memorje
-// - Shfaqjen e listës së studentëve
+// Aktualisht pï¿½rfshin:
+// - Strukturï¿½n Student
+// - Shtimin e njï¿½ studenti nï¿½ memorje
+// - Shfaqjen e listï¿½s sï¿½ studentï¿½ve
 //
-// Funksionalitete shtesë (kërkim, ruajtje në file, etj.)
-// do të implementohen në branch-e të veçanta nga anëtarët
-// e tjerë të ekipit.
+// Funksionalitete shtesï¿½ (kï¿½rkim, ruajtje nï¿½ file, etj.)
+// do tï¿½ implementohen nï¿½ branch-e tï¿½ veï¿½anta nga anï¿½tarï¿½t
+// e tjerï¿½ tï¿½ ekipit.
 // ------------------------------------------------------------
 
